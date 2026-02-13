@@ -6,7 +6,7 @@ assignees: []
 
 body:
   - type: dropdown
-    id: type
+    id: issue_type
     attributes:
       label: Issue Type
       description: What type of issue is this?
@@ -19,10 +19,10 @@ body:
       required: true
 
   - type: dropdown
-    id: type
+    id: service_type
     attributes:
       label: Service
-      description: What service is it related to ?
+      description: What service is it related to?
       options:
         - Frontend
         - Backend
@@ -44,7 +44,7 @@ body:
       required: true
 
   - type: textarea
-    id: tech details
+    id: tech_details
     attributes:
       label: Details
       description: Provide background, technical details, or reasoning.
@@ -55,12 +55,12 @@ body:
   - type: checkboxes
     id: definition_of_done
     attributes:
-      label: Definition of Done 
+      label: Definition of Done
       description: Check all that must be completed before closing the issue.
       options:
-        - label: ✅ Implementation
-        - label: 📖 Documentation
-        - label: 📝 Instruction / Usage Guide
+        - label: "✅ Implementation"
+        - label: "📖 Documentation"
+        - label: "📝 Instruction / Usage Guide"
 
   - type: input
     id: priority
@@ -72,7 +72,7 @@ body:
       required: false
 
   - type: input
-    id: due
+    id: due_date
     attributes:
       label: Due Date
       description: If applicable, provide a target deadline.
