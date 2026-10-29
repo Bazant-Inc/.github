@@ -28,10 +28,11 @@ body:
         - Backend
         - Configuration service
         - Automation service
-        - Job scheduler service
+        - Scheduler service
         - Orchestrator
         - Agent
-        - Task runner
+        - Workflow SDK
+        - Demo
     validations:
       required: true
 
